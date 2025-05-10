@@ -1,0 +1,52 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files and large data
+intent_classifier_model/
+*.safetensors
+*.pt
+*.pth
+*.h5
+
+# Data files (if not sharing raw data)
+*.xlsx
+*.csv
+*.json
+
+# API keys and secrets
+.env
+*.env
+*.secret
+*.key
+
+# Google API key (never commit this!)
+GEMINI_API_KEY
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints (if you add notebooks later)
+.ipynb_checkpoints/

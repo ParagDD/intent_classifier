@@ -1,0 +1,5 @@
+# To install dependencies, run:
+# pip install google-genai pydantic
+
+google-genai>=0.3.0
+pydantic>=1.10.0 
